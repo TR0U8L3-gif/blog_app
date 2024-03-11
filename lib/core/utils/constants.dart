@@ -1,13 +1,25 @@
-import 'dart:math';
-
 import 'package:flutter/cupertino.dart';
 
+// App
+const kAppWidthMax = 600.0;
+
+// Font
+const kFontSizeXXSmall = 9.0;
+const kFontSizeXSmall = 10.0;
+const kFontSizeSmall = 13.0;
+const kFontSizeMedium = 16.0;
+const kFontSizeLarge = 18.0;
+const kFontSizeXLarge = 24.0;
+const kFontSizeXXLarge = 32.0;
+const kFontSizeXXXLarge = 48.0;
+
 // Size
+const kGoldenRatio = 1.618033;
+
 const kSize12 = 12.0;
 const kSize24 = 24.0;
 const kSize36 = 36.0;
 const kSize48 = 48.0;
-const kGoldenRatio = 1.618033;
 
 // SizedBox
 const kSizedBoxHeight12 = SizedBox(height: kSize12,);
@@ -21,7 +33,8 @@ const kSizedBoxWidth36 = SizedBox(width: kSize36,);
 const kSizedBoxWidth48 = SizedBox(width: kSize48,);
 
 // Button
-const kButtonRatio = 0.28;
-const kButtonMaxWidth = 240.0;
-const kButtonMaxHeight = kButtonMaxWidth * kButtonRatio;
+const kButtonSizeSmall = 42.0;
+const kButtonSizeMedium = 60.0;
+const kButtonSizeLarge= 72.0;
+
 
