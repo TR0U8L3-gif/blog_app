@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 
 // App
 const kAppWidthMax = 600.0;
+const kAppWidthMin = 160.0;
 
 // Font
 const kFontSizeXXSmall = 9.0;
