@@ -1,5 +1,5 @@
 import 'package:blog_app/core/theme/theme.dart';
-import 'package:blog_app/src/auth/presentation/pages/signup_page.dart';
+import 'package:blog_app/src/auth/presentation/pages/sign_up_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

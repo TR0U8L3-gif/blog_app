@@ -1,4 +1,5 @@
 import 'package:blog_app/core/theme/color_palette.dart';
+import 'package:blog_app/core/utils/constants.dart';
 import 'package:flutter/material.dart';
 
 class AppTheme {
@@ -9,16 +10,6 @@ class AppTheme {
         ),
         borderRadius: BorderRadius.circular(12),
       );
-
-  // static final darkThemeMode = ThemeData.dark().copyWith(
-  //   scaffoldBackgroundColor: ColorPalette.backgroundColor,
-  //   inputDecorationTheme: InputDecorationTheme(
-  //     contentPadding: const EdgeInsets.all(24),
-  //     enabledBorder: _border(),
-  //     focusedBorder: _border(color: ColorPalette.gradient2),
-  //   ),
-  // );
-
   static final darkThemeMode = ThemeData.from(
     colorScheme: ColorScheme.fromSwatch(
       primarySwatch: getMaterialColor(ColorPalette.gradient2),
@@ -30,6 +21,9 @@ class AppTheme {
       contentPadding: const EdgeInsets.all(24),
       enabledBorder: _border(),
       focusedBorder: _border(color: ColorPalette.gradient2),
+      errorBorder: _border(color: ColorPalette.errorColor),
+      focusedErrorBorder: _border(color: ColorPalette.gradient2),
+      errorStyle: const TextStyle(fontSize: kFontSizeSmall),
     ),
   );
 }
